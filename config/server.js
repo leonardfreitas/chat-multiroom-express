@@ -1,8 +1,8 @@
 // import express, consign, body-parser, express-validator
-import express from 'express';
-import consign from 'consign';
-import bodyParser from 'body-parser';
-import expressValidator from 'express-validator';
+const express = require('express');
+const consign = require('consign');
+const bodyParser = require('body-parser');
+const expressValidator = require('express-validator');
 
 // start express object
 var app = express();
